@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DDT Test Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9b944bd5-33fd-417d-af33-ee52422a7764</testSuiteGuid>
+   <testCaseLink>
+      <guid>2bb3276c-c691-4fd2-a996-584701aa5b28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDrivenTestDemo</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>904ee598-315e-40a6-b482-3eaebbde40c3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>904ee598-315e-40a6-b482-3eaebbde40c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>intA</value>
+         <variableId>9e123837-e79a-4b45-b79d-f13a5dd87bc1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>904ee598-315e-40a6-b482-3eaebbde40c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>intB</value>
+         <variableId>46723832-a0a9-45dc-86ae-c696490ecbd1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>904ee598-315e-40a6-b482-3eaebbde40c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>resultAdd</value>
+         <variableId>cd1ac74f-8371-4a06-81e2-0c47ee534465</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>904ee598-315e-40a6-b482-3eaebbde40c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>resultSubtract</value>
+         <variableId>f7aa85aa-6abf-42fd-94ce-0c3dd11723bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>904ee598-315e-40a6-b482-3eaebbde40c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>resultMultiply</value>
+         <variableId>2e113f43-c2d4-4a82-bfa3-1cb5b91e7e87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>904ee598-315e-40a6-b482-3eaebbde40c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>resultDivide</value>
+         <variableId>362c9892-b3f9-40e1-a4d8-02b947cfd803</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
